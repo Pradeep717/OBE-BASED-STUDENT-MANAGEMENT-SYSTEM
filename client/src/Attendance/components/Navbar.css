@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200&family=Urbanist:ital,wght@0,100;0,200;0,700;1,100;1,200&display=swap');
+
+.nav{
+    height: 90px;
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    background-color: #3A2323;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.nav-container{
+    padding: 5px;
+    margin: 0%;
+    display: flex;
+}
+.logo{
+    height: 70px;
+    margin-top: 1px;
+}
+.names{
+    margin-left: 10px;
+    height: 80px;
+    display: flex;
+    margin-top: -7px;
+    flex-direction: column;
+    overflow: hidden;
+    vertical-align: middle;
+    justify-content: center;
+}
+.name1{
+    display: flex;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-style: normal;
+    text-shadow: 1px 2px #100d0d;
+    margin-bottom: 0%;
+    height: auto;
+    font-family:'Poppins';
+    text-decoration: none;
+    padding: 0%;
+}
+.name1:hover{
+    color: #FFFFFF;
+}
+.name2{
+    display: flex;
+    text-transform: uppercase;
+    margin-top: -17px;
+    font-style: normal;
+    color: #FFFFFF;
+    height: auto;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+@media screen and (max-width: 900px) {
+    .nav{
+        height: 67px;
+        display: flex;
+        flex-direction:row;
+        z-index: 1;
+    }
+    .logo{
+        height: 50px;
+        margin-top: 4px;
+    }.name1{
+        font-size: 30px;
+        margin-top: -5px;
+    }
+    .name2{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .names{
+        margin-top: -12px;
+    }
+   
+}
