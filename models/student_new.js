@@ -61,6 +61,7 @@ const studentSchema = new Schema({
     attdenList:[],
     markList:[],
     pList:[],
+    subjects:[],
     pic:{
      type:String,
      default:"https://res.cloudinary.com/dj76d2css/image/upload/v1687283881/profile2_fkomhx.png"
